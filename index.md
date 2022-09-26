@@ -1,11 +1,17 @@
 # Ethan Zhang's website
-*hello world!*
-**WOW**
-# Contents
-[Google cool :D](https://www.google.com/) 
 
-* apple
-* banana
-* orange
+_hello world!_
+**WOW**
+
+# Contents
+
+[Google cool :D](https://www.google.com/)
+
+- apple
+- bananav
+- orange
+- potato
+
 ---
+
 `Gamer ?`
