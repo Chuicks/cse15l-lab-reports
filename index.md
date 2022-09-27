@@ -1,11 +1,13 @@
 # Ethan Zhang's website
 
 _hello world!_
+
 **WOW**
 
 # Contents
+[Lab Report 1](lab-report-1-week-0.html)
 
-[Google cool :D](https://www.google.com/)
+
 
 - apple
 - bananav
@@ -14,4 +16,4 @@ _hello world!_
 
 ---
 
-`Gamer ?`
+`test box`
