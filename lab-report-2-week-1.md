@@ -11,7 +11,16 @@ VScode is a code editor and I already had it before this course. You download it
 ## *Remotely Connecting*
 ![Remotely Connecting](/week1-screenshots/cse15l-week1-step2.png)
 By using ssh command you can connect to remote computer.  
-`ssh cs15lfa22ta10@ieng6.ucsd.edu`
+`ssh cs15lfa22ta10@ieng6.ucsd.edu` .
+<br />
+
+---
+## *Trying some commands*
+![Trying some commands](/week1-screenshots/cse15l-week1-step6.png)
+I tested some of the commands given to us such as `cd ~`, `ls -lat`, and  
+`cat /home/linux/ieng6/cs15lfa22/public/hello.txt`   
+ The screenshot I took was me trying `/home/linux/ieng6/cs15lfa22`  
+ it wasn't the command that I was supposed to type but it was cool as it gave me all of the users or account names under `cs15lfa22` .
 <br />
 
 ---
@@ -29,7 +38,7 @@ The `:~/` part of the command shows where to copy the file to on the remote comp
 By using `ssh-keygen` (local) , `mkdir .ssh` (remote),                                      
  `scp /Users/hotw/.ssh/id_rsa.pub eyzhang@ieng6.ucsd.edu:~/.ssh/authorized_keys`(local)         
  it allows you to store your key on your computer and essentially bypass the password system.
- So you are able to access your remote computer without having to input your password everytime
+ So you are able to access your remote computer without having to input your password everytime.
 <br />
 
 ---
