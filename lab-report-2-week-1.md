@@ -1,6 +1,14 @@
 # Week 1 Lab report
 
-# Contents
+# How to log into ieng6
 
 
-[Screenshot](cse15l-week0-lab-screenshot.png)
+
+[Step 1 ]
+I ...
+
+[Step 2]
+
+[Screenshot]
+[Screenshot]
+
