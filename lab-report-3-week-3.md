@@ -62,4 +62,18 @@ Bug:
 
 The problem in the code is that it is storing the elements in the newArray into arr. It should be the other way around as by doing it this way you are taking the null elements from the new empty array, reversing them, and putting them into the original array. Thats why the symptoms show that although we expect 3, it returns 0. What you should do is taking the elements from the old array, reversing them, and storing them in the newArray. Finally the returned array should be the new one as it is the ones that has stored the correctly reversed values.
 
-### *ArrayExample: reversed( )*
+<br />
+
+### *LinkedArrayExample: length( )*
+Failure-inducing test:
+
+![Failure-inducing test](/week3-screenshots/cse15l-week3-step7.png)
+
+Symptoms:
+![Symptoms](/week3-screenshots/cse15l-week3-step8.png)
+
+Bug:
+
+![Bug](/week3-screenshots/cse15l-week3-step9.png) (NOT AVAILABLE)
+
+I wasn't really able to find any bugs specifically with the LinkedListExample methods. However my issue was that whenever I would try to add in anything more than two nodes to my linkedlist, such as in the screenshot shown, the test would take like 3 minutes to run and spit out a OutOfMemoryError. I genuinely don't know why this is considering it is only 3 nodes and also it makes it basically impossible for me to test anything.
