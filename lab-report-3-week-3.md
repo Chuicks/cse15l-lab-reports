@@ -51,14 +51,23 @@ If the path is neither /add or /search, the program returns a 404 error message.
 ## *Part 2*
 ### *ArrayExample: reversed( )*
 Failure-inducing test:
+<br />
+
 ![Failure-inducing test](/week3-screenshots/cse15l-week3-step4.png)
+<br />
+
 
 Symptoms:
+<br />
+
 ![Symptoms](/week3-screenshots/cse15l-week3-step5.png)
+<br />
 
 Bug:
+<br />
 
 ![Bug](/week3-screenshots/cse15l-week3-step6.png)
+<br />
 
 The problem in the code is that it is storing the elements in the newArray into arr. It should be the other way around as by doing it this way you are taking the null elements from the new empty array, reversing them, and putting them into the original array. Thats why the symptoms show that although we expect 3, it returns 0. What you should do is taking the elements from the old array, reversing them, and storing them in the newArray. Finally the returned array should be the new one as it is the ones that has stored the correctly reversed values.
 
@@ -66,11 +75,14 @@ The problem in the code is that it is storing the elements in the newArray into 
 
 ### *LinkedArrayExample: length( )*
 Failure-inducing test:
-
+<br />
 ![Failure-inducing test](/week3-screenshots/cse15l-week3-step7.png)
+<br />
 
 Symptoms:
+<br />
 ![Symptoms](/week3-screenshots/cse15l-week3-step8.png)
+<br />
 
 Bug:
 
