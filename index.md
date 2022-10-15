@@ -14,7 +14,7 @@ _hello world!_
 
 
 - apple
-- bananav
+- banana
 - orange
 - potato
 
