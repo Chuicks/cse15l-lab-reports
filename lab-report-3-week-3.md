@@ -55,6 +55,8 @@ Failure-inducing test:
 
 ![Failure-inducing test](/week3-screenshots/cse15l-week3-step4.png)
 <br />
+The test shows using the reversed method on an array called input1 with elements 1, 2, 3. The reversed should be 3, 2, 1 as shown in the expected field of assertArrayEquals.
+<br />
 
 
 Symptoms:
@@ -62,11 +64,14 @@ Symptoms:
 
 ![Symptoms](/week3-screenshots/cse15l-week3-step5.png)
 <br />
+The tests show that testReversed() failed as index 0 returned 0 instead of the 3 we expected in our test.
+<br />
 
 Bug:
 <br />
 
 ![Bug](/week3-screenshots/cse15l-week3-step6.png)
+
 <br />
 
 The problem in the code is that it is storing the elements in the newArray into arr. It should be the other way around as by doing it this way you are taking the null elements from the new empty array, reversing them, and putting them into the original array. Thats why the symptoms show that although we expect 3, it returns 0. What you should do is taking the elements from the old array, reversing them, and storing them in the newArray. Finally the returned array should be the new one as it is the ones that has stored the correctly reversed values.
@@ -78,14 +83,19 @@ Failure-inducing test:
 <br />
 ![Failure-inducing test](/week3-screenshots/cse15l-week3-step7.png)
 <br />
+The test shows using the append method for 3 elements and the calculating the length of the linked list. The test expects the test to confirm that the list length is 3.
+
+<br />
 
 Symptoms:
 <br />
 ![Symptoms](/week3-screenshots/cse15l-week3-step8.png)
 <br />
+When running test you will get a java heap space error showing that it failed.
+<br />
 
 Bug:
-
-![Bug](/week3-screenshots/cse15l-week3-step9.png) (NOT AVAILABLE)
-
-I wasn't really able to find any bugs specifically with the LinkedListExample methods. However my issue was that whenever I would try to add in anything more than two nodes to my linkedlist, such as in the screenshot shown, the test would take like 3 minutes to run and spit out a OutOfMemoryError. I genuinely don't know why this is considering it is only 3 nodes and also it makes it basically impossible for me to test anything.
+<br />
+![Bug](/week3-screenshots/cse15l-week3-step9.png)
+<br />
+The reason the test fails and returns the heap space error is because there is an issue with the append method, particularly the final if statement for appending after the array already has two elements. What it currently does is that it keeps looping through until the heap spcae is used out. It is because the method has no return statement. So to fix the method you just add  `return;`  to the end of your while loop so it terminates properly.
