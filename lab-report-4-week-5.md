@@ -46,7 +46,7 @@ In this case, I search for "inos" on the files in `technical/plos/`. The interes
 
 In this case, I search for "1005" on the `.txt` files in `technical/plos/`. For this example it shows that capitalizations don't work for numbers. So I expected it to print out lines that included "100%" as shift + 5 would be % but I found out `-i` doesn't work this way. The command returned nothing as there are no `.txt` files in this path that contain "1005".
 
-<br />]
+<br />
 
 ### *`grep -n`*
 
