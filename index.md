@@ -13,6 +13,8 @@ _hello world!_
 
 [Week 5 Lab Report](lab-report-4-week-5.html)
 
+[Week 7 Lab Report](lab-report-5-week-7.html)
+
 
 
 - apple
