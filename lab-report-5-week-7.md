@@ -56,17 +56,24 @@ Here `x` deletes the higlighted element so "10 total" turns to "1 total" then `i
 <br />
 
 ## Part 2
-### Timings
-already logged into a ssh session: 
+### Timings:
+already logged into a ssh session: 1:30
 
-scp local file:
+scp local file: 1:45
 
-### Questions
+### Questions:
 *Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?*
 <br />
 
-I would prefer to edit locally first and then scp it over. Although it does take longer to do, I just much more prefer editing with the vscode. 
+I would prefer to edit locally first and then scp it over. Although it does take longer to do, I just much more prefer editing with vscode than vim. 
+
+<br />
 
 ---
 
+<br />
+
 *What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)*
+<br />
+
+If it is just editing one file, they have similar speeds. Though if it is for a large directory, its easier to just use vim directly as scp does only one file at a time which is way slower. Also I am worse at using vim than a normal text editor so naturally I would prefer using the one im more comfortable with.
