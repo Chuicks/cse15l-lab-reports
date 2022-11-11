@@ -40,7 +40,7 @@ This command opens the file TestDocSearch.java with vim mode, which allows you t
 
 <br />
 
-Here `x` deletes the higlighted element so "10 total" turns to "1 total" then `i` sets vim to insert mode befor the cursor. Then typing 391 inserts it to where the cursor is so "1 total" becomes "1391 total". After that the ` <escape> ` exits vim mode and you get what the screenshot shows.
+Here `x` deletes the higlighted element so "10 total" turns to "1 total" then `i` sets vim to insert mode befor the cursor. Then typing 391 inserts it to where the cursor is so "1 total" becomes "1391 total". After that the `<escape>` exits vim mode and you get what the screenshot shows.
 
 <br />
 
