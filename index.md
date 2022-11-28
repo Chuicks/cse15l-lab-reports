@@ -16,6 +16,8 @@ _hello world!_
 [Week 7 Lab Report](lab-report-5-week-7.html)
 
 
+[Week 8 Lab Report](lab-report-6-week-8.html)
+
 
 - apple
 - banana
