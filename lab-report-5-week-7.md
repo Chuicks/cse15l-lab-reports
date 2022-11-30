@@ -4,8 +4,8 @@
 
 <br />
 
-`cd week6-skill-demo1<enter>vim TestDocSearch.java<enter>/0<enter>xi391<escape>:wp`
-
+`cd week6-skill-demo1<enter>vim DocSearchServer.java<enter>/start<enter>dwibase<escape>ndwibase<escape>ndwibase<escape>ndwibase <escape>:wp`
+`cd week6-skill
 <br />
 
 ### `cd week6-skill-demo1 <enter>`
