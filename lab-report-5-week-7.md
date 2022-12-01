@@ -4,8 +4,16 @@
 
 <br />
 
-`cd week6-skill-demo1<enter>vim DocSearchServer.java<enter>/start<enter>dwibase<escape>ndwibase<escape>ndwibase<escape>ndwibase <escape>:wp`
-`cd week6-skill
+```
+cd week6-skill-demo1<enter>
+vim DocSearchServer.java<enter>
+/start<enter>
+dwibase<escape>
+ndwibase<escape>
+ndwibase<escape>
+ndwibase<escape>
+:wq<enter>
+```
 <br />
 
 ### `cd week6-skill-demo1 <enter>`
@@ -21,29 +29,37 @@ You use `cd` to go to the directory week6-skill-demo1.
 ![vim](/week7-screenshots/cse15l-week7-step2.png)
 
 <br />
-This command opens the file TestDocSearch.java with vim mode, which allows you to edit it directly from the terminal. Vim mode is shown in the bottom half of the screenshot.
+This command opens the file DocSearchServer.java with vim mode, which allows you to edit it directly from the terminal. Vim mode is shown in the bottom half of the screenshot.
 
 <br />
 
-### `/0 <enter>`
+### `/start <enter>`
 ![search](/week7-screenshots/cse15l-week7-step3.png)
 
 <br />
 
-`/0` searches for the first occurance of 0 in the file that you have opened up in vim. As shown in the screenshot, the first appearance is now higlighted, the "0" of "10 total files to search".
+`/start` searches for the first occurance of start in the file that you have opened up in vim. As shown in the screenshot, the first appearance is now higlighted, the "start" of "getFiles(Path start)".
 
 <br />
 
 
-### `xi391 <escape>`
+### `dwibase <escape>`
 ![edit](/week7-screenshots/cse15l-week7-step4.png)
 
 <br />
 
-Here `x` deletes the higlighted element so "10 total" turns to "1 total" then `i` sets vim to insert mode befor the cursor. Then typing 391 inserts it to where the cursor is so "1 total" becomes "1391 total". After that the `<escape>` exits vim mode and you get what the screenshot shows.
+Here `dw` cuts from the highlighted posistion to the end of the word so "(Path start)" turns to "(Path )" then `i` sets vim to insert mode befor the cursor. Then typing base inserts it to where the cursor is so "(Path )" becomes "(Path base)". After that the `<escape>` exits vim mode and you get what the screenshot shows. Now the first occurance of start is changed to base.
 
 <br />
 
+### *3x* `ndwibase<escape>`  
+![edit](/week7-screenshots/cse15l-week7-step6.png)
+
+<br />
+
+Here `n` searches for the next occurance of start. Then `dwibase` does the same as earlier and replaces start with base. This is done 3 times to replace all occurances of start in the file with base.
+
+<br />
 
 ### `:wq`
 
